@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>ViewModel Template</string>
+	<key>Summary</key>
+	<string>A template for generating a new MVVM ViewModel.</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>DefaultCompletionName</key>
+	<string>ViewModel</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>New Module Name:</string>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Module1</string>
+		</dict>
+	</array>
+	<key>Description</key>
+	<string>A template for generating a new MVVM Model.</string>
+</dict>
+</plist>
